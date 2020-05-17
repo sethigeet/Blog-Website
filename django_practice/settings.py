@@ -139,12 +139,12 @@ LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
 
 # For emailing through actual servers
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = os.environ.get('USER_NAME')
-# EMAIL_HOST_PASSWORD = os.environ.get('USER_PASS')
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = os.environ.get('USER_NAME')
+EMAIL_HOST_PASSWORD = os.environ.get('USER_PASS')
 
 # For emailing on localhost servers
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
